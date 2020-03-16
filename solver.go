@@ -33,8 +33,6 @@ mainloop:
 		cleanText := strings.ToLower(strings.TrimSpace(text))
 
 		switch cleanText {
-		case "test":
-			buildInputBox()
 		case "help":
 			displayHelp()
 		case "fill":
